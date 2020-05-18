@@ -87,10 +87,9 @@
     \begin{pgfonlayer}{background}
         \node [rectangle,inner sep=0.5em,fill=orange!20,rounded corners=4pt] [fit = (en-multi) (en-add1) (en-feed) (en-add2) (k1)] (box0) {};
         \node [rectangle,inner sep=0.5em,fill=blue!10,rounded corners=4pt] [fit = (de-multi) (de-add1) (en-de-multi) (de-add2) (de-feed) (de-add3) (k2)] (box1) {};
-        
-    \node [anchor=west,align=center,font=\footnotesize](de_n) at ([xshift=0.1cm]box1.east){$\times N$};
-    \node [anchor=east,align=center,font=\footnotesize](en_n) at ([xshift=-0.1cm]box0.west){$N \times$};
     \end{pgfonlayer}
+	 \node [anchor=west,align=center,font=\footnotesize](de_n) at ([xshift=0.1cm]box1.east){$\times N$};
+    \node [anchor=east,align=center,font=\footnotesize](en_n) at ([xshift=-0.1cm]box0.west){$N \times$};
 	\end{tikzpicture}
     \end{spacing}
 \end{document} 
