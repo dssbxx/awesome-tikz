@@ -1,3 +1,3 @@
-# 展示
+# Preview
 
-![output](https://github.com/dssbxx/awesome-tikz/blob/master/lstm/lstm.PNG)
+![output](https://github.com/zhoutao1996/awesome-tikz/blob/master/lstm/lstm.PNG)
